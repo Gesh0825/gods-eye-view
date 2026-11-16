@@ -1,0 +1,10 @@
+{
+  "name": "God's Eye View (phone-friendly)",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "forwardPorts": [4173],
+  "portsAttributes": {
+    "4173": { "label": "God's Eye View", "onAutoForward": "openBrowser" }
+  },
+  "postCreateCommand": "npm ci",
+  "postAttachCommand": "bash .devcontainer/start.sh"
+}
